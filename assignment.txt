@@ -1,0 +1,14 @@
+Implementujte CEC 2020 Testbed - k dispozici je verze v jazyce C a Matlab (nicméně definice funkcí atd. je možné překódovat kam chcete - případně z JAVA volat C atd...).
+
+k dispozici zde (pdf s definitions, dále kód v software.zip):
+
+https://github.com/P-N-Suganthan/2020-Bound-Constrained-Opt-Benchmark
+
+Obsahuje 10 funkcí. Je potřeba brát ohled na to, že většina funkcí je tzv. rotovaných a shift-nutých - tedy pozice globálního extrému je posunuta uměle "shiftem" např. mimo střed atd.
+Dále se načítají rotační matice. Benchmark je designovaný pro 5, 10, 15, 20 D (mimo F6 a F7 - ty nejsou pro 5D).
+Minimálně jej spusťte v nastaveni 5D a 10D (deset dimenzí) - budget ohodnocení účelové funkce je dán v tabulce v kapitole 2.1.
+
+Algoritmy - doporučuji značně upravený Hill Climber (nějaká dynamická adaptace?) nebo Simulované žíhání.
+Zde je velký prostor pro vlastní invenci/testování.
+
+V benchmarku je uvedeno 30 opakování - dodržet.
